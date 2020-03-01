@@ -940,14 +940,22 @@ section {
 
 #barra{
   background-image: url('../img/Grupo\ 99.png');
-  background-repeat: no-repeat;
+  width: 100%;
   height: 25vh;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
   
   
   
 }
 .s-chido{
   background-image: url('../img/Intersección\ 2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
@@ -959,7 +967,7 @@ section {
   color: white;
   border-radius: 5px;
   padding-top: 1vh;
-  height: 6vh;
+  height: 5vh;
   margin: 2vh;
 }
 .quiero_un_boleto2{
