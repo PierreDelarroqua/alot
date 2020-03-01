@@ -100,7 +100,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <p><strong>!Conexión exitosa!</strong></p>
-                    <p>Armando Rosas Hernández HSBC · · · ·0824  </p>
+                    <p><span id="etiqueta"></span> · · · ·0824  </p>
                     <a href="dashboard.html"><div class="quiero_un_boleto text-center">
                         Ver mi boleto
                       </div>
@@ -134,6 +134,20 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+  <script>
+  var nombre = localStorage.getItem('nombre');
+  var apellidoUno = localStorage.getItem('apellidoUno');
+  var apellidoDos = localStorage.getItem('apellidoDos');
+
+
+  var etiqueta = document.querySelector('#etiqueta').innerText = nombre + " " + apellidoUno + " " + apellidoDos;
+
+
+
+
+  </script>
 
 </body>
 

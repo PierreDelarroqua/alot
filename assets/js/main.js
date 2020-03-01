@@ -170,25 +170,25 @@
 
 })(jQuery);
 
-var myHeaders = {
-  "X-Client": "0425c644a72d4ec7bdf15c5d29b705b6",
-  "X-User": "HACKATON",
-  "X-Password": "4d0313fcB8f54387bbfa67Da4E8eb7Ea",
-  "x-api-key": "3qOCFn4RvZpSgrVyPy3g2FmVA4WQirambMTDzmf0"
-}
+// var myHeaders = {
+//   "X-Client": "0425c644a72d4ec7bdf15c5d29b705b6",
+//   "X-User": "HACKATON",
+//   "X-Password": "4d0313fcB8f54387bbfa67Da4E8eb7Ea",
+//   "x-api-key": "3qOCFn4RvZpSgrVyPy3g2FmVA4WQirambMTDzmf0"
+// }
 
-var myParams = {
-  'accountNumber': "4077641041"
-}  
+// var myParams = {
+//   'accountNumber': "4077641041"
+// }  
 
 
-var requestOptions = {
-  method: 'GET',
-  headers: myHeaders,
-  params: myParams,
-};
+// var requestOptions = {
+//   method: 'GET',
+//   headers: myHeaders,
+//   params: myParams,
+// };
 
-fetch("https://mwiuw3q1fj.execute-api.us-east-1.amazonaws.com/dev/v1/sandbox/checking-accounts/profile", requestOptions)
-  .then(response => response.text())
-  .then(result => console.log(result))
-  .catch(error => console.log('error', error));
+// fetch("https://mwiuw3q1fj.execute-api.us-east-1.amazonaws.com/dev/v1/sandbox/checking-accounts/profile", requestOptions)
+//   .then(response => response.text())
+//   .then(result => console.log(result))
+//   .catch(error => console.log('error', error));

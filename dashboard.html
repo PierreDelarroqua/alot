@@ -93,7 +93,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p id="nombre">¡Hola Armando!</p>
+                    <p id="nombre">¡Hola <span id="etiqueta"></span>!</p>
                 </div>
             </div>
         </div>
@@ -220,6 +220,11 @@
 
   <script>
 
+var nombre = localStorage.getItem('nombre');
+  
+
+
+  var etiqueta = document.querySelector('#etiqueta').innerText = nombre ;
   
 
 
