@@ -187,3 +187,8 @@ var requestOptions = {
   headers: myHeaders,
   params: myParams,
 };
+
+fetch("https://mwiuw3q1fj.execute-api.us-east-1.amazonaws.com/dev/v1/sandbox/checking-accounts/profile", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
