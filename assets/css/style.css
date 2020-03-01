@@ -1064,10 +1064,24 @@ background: linear-gradient(29deg, rgba(77,145,255,1) 0%, rgba(255,28,54,1) 100%
   background-color: #ff1c36;
   border-radius: 50%;
 }
+.elipse-5 {
+  width: 6.5vh;
+  height: 6.5vh;
+  object-fit: contain;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #ff1c36;
+}
 .fa-plus{
   margin-left: 1vh;
   margin-top: 1vh;
   color: #ffffff;
+}
+
+.fa-minus{
+  margin-left: 1vh;
+  margin-top: 1vh;
+  color: #ff1c36;
 }
 
 .boleto{
@@ -1097,4 +1111,7 @@ i{
   
   100%{width: 100%;} 
     
+}
+#contador{
+  font-size: 5vh;
 }
