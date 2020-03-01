@@ -169,3 +169,21 @@
   });
 
 })(jQuery);
+
+var myHeaders = {
+  "X-Client": "0425c644a72d4ec7bdf15c5d29b705b6",
+  "X-User": "HACKATON",
+  "X-Password": "4d0313fcB8f54387bbfa67Da4E8eb7Ea",
+  "x-api-key": "3qOCFn4RvZpSgrVyPy3g2FmVA4WQirambMTDzmf0"
+}
+
+var myParams = {
+  'accountNumber': "4077641041"
+}  
+
+
+var requestOptions = {
+  method: 'GET',
+  headers: myHeaders,
+  params: myParams,
+};
