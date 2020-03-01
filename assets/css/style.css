@@ -1084,3 +1084,17 @@ i{
   color: #ff1c36;
   font-size: 5vh;
 }
+
+.progress-bar{
+  animation-name: change;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+@keyframes change{
+  0%{width: 0%}
+  
+  100%{width: 100%;} 
+    
+}

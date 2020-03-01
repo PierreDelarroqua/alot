@@ -176,7 +176,7 @@
                       
                                 <div class="col-4 text-center" data-aos="fade-up" data-aos-delay="400">
                                   <div class="count-box">
-                                    <span data-toggle="counter-up">12</span>
+                                    <span data-toggle="counter-up" id="minutos">12</span>
                                     <p>Minutos</p>
                                   </div>
                                 </div>
@@ -217,6 +217,36 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+
+  
+
+
+
+
+
+
+
+    function tiempo() {
+      var minutos = document.querySelector('#minutos');
+
+      var valorMinutos = parseInt(minutos.innerText);
+
+      valorMinutos--;
+
+      minutos.innerText = valorMinutos;
+
+     
+
+
+    }
+setInterval('tiempo()',60000);
+
+
+
+  </script>
+
 
 </body>
 
